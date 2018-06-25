@@ -2,6 +2,7 @@ import UIKit
 
 class MyTableViewController: UITableViewController {
     
+    
     var foodStoreNames = ["늘해랑", "번개반점", "아딸", "왕짜장", "토마토 도시락", "홍콩반점"]
     var foodStoreThumbnail = ["01", "02", "03", "04", "05", "06"]
     var foodStoreAddress = ["부산광역시 부산진구 양정1동 350-1",
@@ -34,7 +35,7 @@ class MyTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         
-        self.title = "DIT 배달통"
+        self.title = "DIT 철가방"
     }
     
     // MARK: - Table view data source
@@ -61,12 +62,23 @@ class MyTableViewController: UITableViewController {
         
         return cell
     }
-    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print(indexPath.row)
-        print(foodStoreNames[indexPath.row])
-        print(foodStoreTel[indexPath.row])
-    }
+                    print(indexPath.row)
+                    print(foodStoreNames[indexPath.row])
+                    print(foodStoreTel[indexPath.row])
+    let optionMenu = UIAlertController(title: "전화걸기", message : foodStoreTel[indexPath.row], preferredStyle : .actionSheet)
+                let callAction = UIAlertAction(title : "전화를 거시겠습니까?", style : .default) { (action: UIAlertAction) -> Void in
+                      print("전화를 걸고 있습니다.!!! 뚜두뚜두!!")
+                }
+                let cancelAction = UIAlertAction(title : "취소", style: .cancel, handler: nil)
+    
+                optionMenu.addAction(callAction)
+                optionMenu.addAction(cancelAction)
+                present(optionMenu, animated: true, completion: nil)
+          }
+
+    
+
     
     // MARK: - Navigation
     // In a storyboard-based application, you will often want to do a little preparation before navigation

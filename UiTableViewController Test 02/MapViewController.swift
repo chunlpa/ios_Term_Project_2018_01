@@ -2,7 +2,7 @@
 //  MapViewController.swift
 //  UiTableViewController Test 02
 //
-//  Created by 김종현 on 2018. 5. 30..
+//  Created by 황지성 on 2018. 5. 30..
 //  Copyright © 2018년 lse. All rights reserved.
 //
 
