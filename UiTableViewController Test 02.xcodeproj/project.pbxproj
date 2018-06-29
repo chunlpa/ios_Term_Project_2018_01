@@ -20,6 +20,14 @@
 		741C17F720AC06C400FE6E1E /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741C17F620AC06C400FE6E1E /* MyTableViewController.swift */; };
 		7C01A97920E5C4BF000EA863 /* timeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C01A97820E5C4BF000EA863 /* timeViewController.swift */; };
 		7C01A97B20E5D3B2000EA863 /* stopwarchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C01A97A20E5D3B2000EA863 /* stopwarchViewController.swift */; };
+		7C1DF04E20E5F352001AE5C1 /* pic5 in Resources */ = {isa = PBXBuildFile; fileRef = 7C1DF04720E5F351001AE5C1 /* pic5 */; };
+		7C1DF04F20E5F352001AE5C1 /* pic4 in Resources */ = {isa = PBXBuildFile; fileRef = 7C1DF04820E5F351001AE5C1 /* pic4 */; };
+		7C1DF05020E5F352001AE5C1 /* pic1 in Resources */ = {isa = PBXBuildFile; fileRef = 7C1DF04920E5F352001AE5C1 /* pic1 */; };
+		7C1DF05120E5F352001AE5C1 /* pic7 in Resources */ = {isa = PBXBuildFile; fileRef = 7C1DF04A20E5F352001AE5C1 /* pic7 */; };
+		7C1DF05220E5F352001AE5C1 /* pic2 in Resources */ = {isa = PBXBuildFile; fileRef = 7C1DF04B20E5F352001AE5C1 /* pic2 */; };
+		7C1DF05320E5F352001AE5C1 /* pic6 in Resources */ = {isa = PBXBuildFile; fileRef = 7C1DF04C20E5F352001AE5C1 /* pic6 */; };
+		7C1DF05420E5F352001AE5C1 /* pic3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C1DF04D20E5F352001AE5C1 /* pic3 */; };
+		7C1DF05620E5F42D001AE5C1 /* pickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1DF05520E5F42D001AE5C1 /* pickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +46,14 @@
 		741C17F620AC06C400FE6E1E /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		7C01A97820E5C4BF000EA863 /* timeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeViewController.swift; sourceTree = "<group>"; };
 		7C01A97A20E5D3B2000EA863 /* stopwarchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stopwarchViewController.swift; sourceTree = "<group>"; };
+		7C1DF04720E5F351001AE5C1 /* pic5 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic5; sourceTree = "<group>"; };
+		7C1DF04820E5F351001AE5C1 /* pic4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic4; sourceTree = "<group>"; };
+		7C1DF04920E5F352001AE5C1 /* pic1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic1; sourceTree = "<group>"; };
+		7C1DF04A20E5F352001AE5C1 /* pic7 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic7; sourceTree = "<group>"; };
+		7C1DF04B20E5F352001AE5C1 /* pic2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic2; sourceTree = "<group>"; };
+		7C1DF04C20E5F352001AE5C1 /* pic6 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic6; sourceTree = "<group>"; };
+		7C1DF04D20E5F352001AE5C1 /* pic3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic3; sourceTree = "<group>"; };
+		7C1DF05520E5F42D001AE5C1 /* pickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +96,7 @@
 		741C17E320AC061400FE6E1E /* UiTableViewController Test 02 */ = {
 			isa = PBXGroup;
 			children = (
+				7C1DF04620E5F33E001AE5C1 /* New Group */,
 				741C17E420AC061400FE6E1E /* AppDelegate.swift */,
 				741C17E820AC061400FE6E1E /* Main.storyboard */,
 				0572C91520C26BB100B79406 /* MapTableViewCell.swift */,
@@ -93,8 +110,23 @@
 				0572C91720C2B39400B79406 /* TotalMapViewController.swift */,
 				7C01A97820E5C4BF000EA863 /* timeViewController.swift */,
 				7C01A97A20E5D3B2000EA863 /* stopwarchViewController.swift */,
+				7C1DF05520E5F42D001AE5C1 /* pickerViewController.swift */,
 			);
 			path = "UiTableViewController Test 02";
+			sourceTree = "<group>";
+		};
+		7C1DF04620E5F33E001AE5C1 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				7C1DF04920E5F352001AE5C1 /* pic1 */,
+				7C1DF04B20E5F352001AE5C1 /* pic2 */,
+				7C1DF04D20E5F352001AE5C1 /* pic3 */,
+				7C1DF04820E5F351001AE5C1 /* pic4 */,
+				7C1DF04720E5F351001AE5C1 /* pic5 */,
+				7C1DF04C20E5F352001AE5C1 /* pic6 */,
+				7C1DF04A20E5F352001AE5C1 /* pic7 */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,9 +188,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C1DF05120E5F352001AE5C1 /* pic7 in Resources */,
+				7C1DF05020E5F352001AE5C1 /* pic1 in Resources */,
 				741C17EF20AC061400FE6E1E /* LaunchScreen.storyboard in Resources */,
+				7C1DF04E20E5F352001AE5C1 /* pic5 in Resources */,
 				741C17EC20AC061400FE6E1E /* Assets.xcassets in Resources */,
+				7C1DF05220E5F352001AE5C1 /* pic2 in Resources */,
+				7C1DF04F20E5F352001AE5C1 /* pic4 in Resources */,
+				7C1DF05420E5F352001AE5C1 /* pic3 in Resources */,
 				741C17EA20AC061400FE6E1E /* Main.storyboard in Resources */,
+				7C1DF05320E5F352001AE5C1 /* pic6 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +214,7 @@
 				0572C91820C2B39400B79406 /* TotalMapViewController.swift in Sources */,
 				0572C91620C26BB100B79406 /* MapTableViewCell.swift in Sources */,
 				7C01A97B20E5D3B2000EA863 /* stopwarchViewController.swift in Sources */,
+				7C1DF05620E5F42D001AE5C1 /* pickerViewController.swift in Sources */,
 				741C17F720AC06C400FE6E1E /* MyTableViewController.swift in Sources */,
 				058F274720BEE6CC00271381 /* MapViewController.swift in Sources */,
 				641A0F0520BBDA36004ECC5A /* DetailViewController.swift in Sources */,
