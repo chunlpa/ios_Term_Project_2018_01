@@ -19,6 +19,7 @@
 		741C17EF20AC061400FE6E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741C17ED20AC061400FE6E1E /* LaunchScreen.storyboard */; };
 		741C17F720AC06C400FE6E1E /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741C17F620AC06C400FE6E1E /* MyTableViewController.swift */; };
 		7C01A97920E5C4BF000EA863 /* timeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C01A97820E5C4BF000EA863 /* timeViewController.swift */; };
+		7C01A97B20E5D3B2000EA863 /* stopwarchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C01A97A20E5D3B2000EA863 /* stopwarchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		741C17F020AC061400FE6E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		741C17F620AC06C400FE6E1E /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		7C01A97820E5C4BF000EA863 /* timeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeViewController.swift; sourceTree = "<group>"; };
+		7C01A97A20E5D3B2000EA863 /* stopwarchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stopwarchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				741C17F020AC061400FE6E1E /* Info.plist */,
 				0572C91720C2B39400B79406 /* TotalMapViewController.swift */,
 				7C01A97820E5C4BF000EA863 /* timeViewController.swift */,
+				7C01A97A20E5D3B2000EA863 /* stopwarchViewController.swift */,
 			);
 			path = "UiTableViewController Test 02";
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				648FAC0520B29D5B00ACCE56 /* FoodStoreTableViewCell.swift in Sources */,
 				0572C91820C2B39400B79406 /* TotalMapViewController.swift in Sources */,
 				0572C91620C26BB100B79406 /* MapTableViewCell.swift in Sources */,
+				7C01A97B20E5D3B2000EA863 /* stopwarchViewController.swift in Sources */,
 				741C17F720AC06C400FE6E1E /* MyTableViewController.swift in Sources */,
 				058F274720BEE6CC00271381 /* MapViewController.swift in Sources */,
 				641A0F0520BBDA36004ECC5A /* DetailViewController.swift in Sources */,

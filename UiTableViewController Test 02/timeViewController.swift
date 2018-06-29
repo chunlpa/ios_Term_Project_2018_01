@@ -15,6 +15,7 @@ class timeViewController: UIViewController {
     
     
     
+   
     @IBOutlet weak var currenttime: UILabel!
     @IBOutlet weak var pickertime: UILabel!
     
@@ -32,15 +33,7 @@ class timeViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+   
     @IBAction func changeDatePicker(_ sender: UIDatePicker) {
         let datePickerView = sender
         
@@ -54,7 +47,7 @@ class timeViewController: UIViewController {
    //     count = count + 1
         
         
-        let date = Date()
+        let date = Date()        
         
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd HH:mm:ss EEE"
