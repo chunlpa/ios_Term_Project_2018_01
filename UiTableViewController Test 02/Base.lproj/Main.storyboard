@@ -9,6 +9,52 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Time View Controller-->
+        <scene sceneID="XmU-E0-dKs">
+            <objects>
+                <viewController id="vRs-sV-gSP" customClass="timeViewController" customModule="UiTableViewController_Test_02" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bbR-x7-Is4" customClass="t">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="선택시간 :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3L-Ty-d2f">
+                                <rect key="frame" x="16" y="464" width="343" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="현재시간 :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ha-C4-f23">
+                                <rect key="frame" x="16" y="369" width="343" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="wWA-Aw-pLW">
+                                <rect key="frame" x="0.0" y="146" width="375" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <date key="date" timeIntervalSinceReferenceDate="551928049.39408302">
+                                    <!--2018-06-29 01:20:49 +0000-->
+                                </date>
+                                <locale key="locale" localeIdentifier="ko"/>
+                                <connections>
+                                    <action selector="changeDatePicker:" destination="vRs-sV-gSP" eventType="valueChanged" id="a0K-CP-JDI"/>
+                                </connections>
+                            </datePicker>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91600892239999998" green="1" blue="0.93326867440000005" alpha="0.83767055459999995" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="nO7-gk-xcM"/>
+                    </view>
+                    <connections>
+                        <outlet property="currenttime" destination="4Ha-C4-f23" id="8In-xn-tSj"/>
+                        <outlet property="pickertime" destination="q3L-Ty-d2f" id="q9m-Xz-876"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ge5-cr-eaO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="648.79999999999995" y="850.52473763118451"/>
+        </scene>
         <!--My Table View Controller-->
         <scene sceneID="lcF-Nd-bSY">
             <objects>
@@ -83,6 +129,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="fHx-4e-WvK">
+                        <barButtonItem key="leftBarButtonItem" title="알람" id="siE-79-8IB" customClass="et">
+                            <connections>
+                                <segue destination="vRs-sV-gSP" kind="show" id="wvX-mj-CzB"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" image="Map" id="kxV-Wm-Hc0">
                             <connections>
                                 <segue destination="7Tl-bp-4Uh" kind="show" identifier="totalMapView" id="fnn-kt-IWm"/>
